@@ -44,7 +44,11 @@ function Navbar() {
           </div>
           <div className="navbar__menu-item">
             <div className="navbar__input-wrapper">
-              <input className="navbar__input" type="text" />
+              <input
+                className="navbar__input"
+                type="text"
+                placeholder="Search Visual Studio (Ctrl+Q)"
+              />
               { /* Icon */ }
             </div>
           </div>
