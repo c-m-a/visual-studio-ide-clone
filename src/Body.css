@@ -1,5 +1,62 @@
 .body {
+  display: flex;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
   background-color: #5f6fa4;
+  padding: 1rem;
+}
+
+.bodyLeft {
+  flex: .24;
+  background-color: #f7f9fe;
+  border: .1rem solid #929dc2;
+  border-radius: .2rem;
+}
+
+.bodyRight {
+  flex: .24;
+  background-color: #f7f9fe;
+  border-radius: .2rem;
+}
+
+.bodyMiddle {
+  flex: .5;
+  background-color: #f7f9fe;
+  border-radius: .2rem;
+}
+
+.bodyRightHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .4rem;
+  background-color: #d7def6;
+}
+
+.bodyMiddleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .4rem;
+  background-color: #ccd5f0;
+}
+
+.bodyLeftHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .4rem;
+}
+
+.bodyLeftHeaderActive {
+  background-color: #f5cc84;
+  border-bottom: .1rem solid #e7e0d4;
+}
+
+.bodyLeftIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4rem;
 }
