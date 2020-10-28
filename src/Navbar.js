@@ -1,4 +1,15 @@
 import './Navbar.css';
+
+import { IconButton } from '@material-ui/core';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
+import FolderOpenIcon from '@material-ui/icons/FolderOpen';
+import SearchIcon from '@material-ui/icons/Search';
+import UndoIcon from '@material-ui/icons/Undo';
+import RedoIcon from '@material-ui/icons/Redo';
+import SaveIcon from '@material-ui/icons/Save';
+
 import { ReactComponent as Logo } from './logo.svg';
 
 function Navbar() {
@@ -49,10 +60,42 @@ function Navbar() {
                 type="text"
                 placeholder="Search Visual Studio (Ctrl+Q)"
               />
-              { /* Icon */ }
+              <SearchIcon
+                style={{
+                  fontSize: '1.9rem',
+                  color: '#606060',
+                  transform: 'scale(-1, 1)'
+                }}
+              />
             </div>
           </div>
         </div>
+      </div>
+      <div className="navbar__menu-icons">
+        <IconButton>
+          <ArrowBackIcon />
+        </IconButton>
+        <IconButton>
+          <ArrowForwardIcon />
+        </IconButton>
+        <IconButton>
+          <AddCircleIcon />
+        </IconButton>
+        <IconButton>
+          <FolderOpenIcon />
+        </IconButton>
+        <IconButton>
+          <SaveIcon />
+        </IconButton>
+        <IconButton>
+          <UndoIcon />
+        </IconButton>
+        <IconButton>
+          <RedoIcon />
+        </IconButton>
+        <IconButton>
+          <ArrowBackIcon />
+        </IconButton>
       </div>
     </nav>
   );
