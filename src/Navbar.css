@@ -5,6 +5,7 @@ input {
 
 .navbar {
   height: 6rem;
+  background-color: #e5ebff;
 }
 
 .navbar__menu {
@@ -30,6 +31,13 @@ input {
   height: 4rem;
 }
 
+.navbar__input {
+  width: 25rem;
+  padding: .3rem 1rem;
+}
+
 .navbar__input-wrapper {
+  position: relative;
+  top: -.4rem;
   border: .15rem solid lightgray;
 }
