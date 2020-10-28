@@ -1,0 +1,35 @@
+input {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar {
+  height: 6rem;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__text-decoration {
+  text-decoration: underline;
+}
+
+.navbar__menu-options {
+  display: flex;
+}
+
+.navbar__menu-item {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.navbar__logo {
+  margin-left: 1rem;
+  padding: .8rem 0;
+  height: 4rem;
+}
+
+.navbar__input-wrapper {
+  border: .15rem solid lightgray;
+}
