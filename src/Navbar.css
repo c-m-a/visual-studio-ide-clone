@@ -6,6 +6,7 @@ input {
 .navbar {
   height: 8rem;
   background-color: #e5ebff;
+  border-bottom: .1rem solid #b1bbdc;
 }
 
 .navbar__menu {
